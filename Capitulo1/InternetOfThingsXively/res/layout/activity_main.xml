@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulación Consumo:" />
+
+	<TextView
+        android:id="@+id/textViewVoltaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltaje:" />
+	
+	<TextView
+        android:id="@+id/textViewAmperios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amperios:" />
+	
+	<TextView
+        android:id="@+id/textViewWatios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Watios:" />
+
+	<Button
+	    android:id="@+id/buttonEnviar"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Comenzar Simulación" />
+	
+</LinearLayout>
